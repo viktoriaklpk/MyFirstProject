@@ -35,3 +35,9 @@ UUCP = UAW + UUCW
 UUCP = 8 + 55 = 63
 
 Отримане значення свідчить про середню складність програмного продукту.
+
+---
+
+### Google Sheets таблиця
+
+https://docs.google.com/spreadsheets/d/1hNGzNcFO9BC0fdZPmV8aGuBJrEPZN_mQstItogsKH98/edit?usp=sharing
