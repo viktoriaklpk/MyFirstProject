@@ -23,3 +23,5 @@
   - збереження навчальних матеріалів.
 
 Програмний продукт підтримує роботу через Internet та мобільні пристрої.
+
+![Software Architect Concept](SoftwareArchitectConcept.jpeg)
