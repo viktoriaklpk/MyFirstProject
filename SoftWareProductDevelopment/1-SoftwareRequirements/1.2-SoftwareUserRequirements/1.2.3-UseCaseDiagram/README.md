@@ -22,3 +22,4 @@ Include-зв’язки:
 
 Extend-зв’язки:
 - «Отримати повідомлення про безпеку» extend «Сервіс сповіщень»
+- ![Use Case Diagram](UseCaseDiagram.png)
