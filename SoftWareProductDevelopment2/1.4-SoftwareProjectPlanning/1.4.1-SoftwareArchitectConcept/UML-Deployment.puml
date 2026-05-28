@@ -1,0 +1,28 @@
+@startuml
+
+node "Клієнтський пристрій" {
+  component "Web Browser"
+}
+
+node "Application Server" {
+  component "SafeFoodArt Application"
+}
+
+database "PostgreSQL" {
+  component "Database"
+}
+
+node "Сервіс доставки" {
+  component "Delivery API"
+}
+
+node "Сервіс сповіщень" {
+  component "Notification API"
+}
+
+"Web Browser" --> "SafeFoodArt Application"
+"SafeFoodArt Application" --> "Database"
+"SafeFoodArt Application" --> "Delivery API"
+"SafeFoodArt Application" --> "Notification API"
+
+@enduml
