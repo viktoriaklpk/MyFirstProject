@@ -1,0 +1,41 @@
+@startuml
+
+class User {
+  +userId : int
+  +userName : string
+  +email : string
+  +login()
+  +logout()
+}
+
+class Order {
+  +orderId : int
+  +orderDate : date
+  +createOrder()
+  +cancelOrder()
+}
+
+class FoodPlace {
+  +foodPlaceId : int
+  +placeName : string
+  +getMenu()
+}
+
+class Artwork {
+  +artworkId : int
+  +artworkName : string
+  +showArtwork()
+}
+
+class Notification {
+  +notificationId : int
+  +notificationText : string
+  +sendNotification()
+}
+
+User --> Order
+Order --> FoodPlace
+User --> Notification
+FoodPlace --> Artwork
+
+@enduml
