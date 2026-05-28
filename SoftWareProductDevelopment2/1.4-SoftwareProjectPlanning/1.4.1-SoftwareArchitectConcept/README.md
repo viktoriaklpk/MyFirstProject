@@ -25,3 +25,7 @@
 Програмний продукт підтримує роботу через Internet та мобільні пристрої.
 
 ![Software Architect Concept](SoftwareArchitectConcept.jpeg)
+
+### PlantUML-файл
+
+[UML-Deployment.puml](UML-Deployment.puml)
