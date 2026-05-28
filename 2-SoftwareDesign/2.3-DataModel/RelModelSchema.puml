@@ -1,0 +1,50 @@
+@startuml
+
+entity Користувач {
+  * idКористувача : int
+  --
+  ім_я : varchar
+  email : varchar
+  пароль : varchar
+}
+
+entity ЗакладХарчування {
+  * idЗакладу : int
+  --
+  назва : varchar
+  адреса : varchar
+  рейтинг : float
+}
+
+entity Замовлення {
+  * idЗамовлення : int
+  --
+  дата : date
+  статус : varchar
+  сума : decimal
+  idКористувача : int
+  idЗакладу : int
+}
+
+entity Робота {
+  * idРоботи : int
+  --
+  назва : varchar
+  автор : varchar
+  стиль : varchar
+}
+
+entity Сповіщення {
+  * idСповіщення : int
+  --
+  текст : text
+  тип : varchar
+  дата : date
+  idКористувача : int
+}
+
+Користувач ||--o{ Замовлення
+ЗакладХарчування ||--o{ Замовлення
+Користувач ||--o{ Сповіщення
+
+@enduml
