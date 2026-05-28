@@ -1,1 +1,1 @@
-### Attribute Vocabulary
+### Словник атрибутів
