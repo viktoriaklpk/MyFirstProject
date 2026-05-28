@@ -1,1 +1,1 @@
-### UML Concept Classes
+### Концептуальні UML-класи
